@@ -101,7 +101,7 @@
       },
       {
         "outbound": "tg",
-        "rule_set": ["tg"]
+        "rule_set": ["geoip-telegram", "geosite-telegram"]
       },
       {
         "outbound": "proxy",
@@ -129,12 +129,19 @@
         "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-microsoft.srs",
         "download_detour": "proxy"
       },
-      {
-        "tag": "tg",
+            {
+        "tag": "geoip-telegram",
         "type": "remote",
         "format": "binary",
-        "url": "https://cdn.jsdelivr.net/gh/SagerNet/sing-geosite@rule-set/geosite-telegram.srs",
-        "download_detour": "proxy"
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geoip/telegram.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geosite-telegram",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/sing/geo/geosite/telegram.srs",
+        "download_detour": "direct"
       },
       {
         "tag": "geosite-youtube",
