@@ -115,6 +115,8 @@
     }
   ],
   "route": {
+    "auto_detect_interface": true,
+    "final": "Proxy",
     "rules": [
       {
         "protocol": "dns",
@@ -151,8 +153,6 @@
       }
     ],
     "rule_set": [
-      "auto_detect_interface": true,
-      "final": "proxy",
       {
         "tag": "geosite-microsoft",
         "type": "remote",
