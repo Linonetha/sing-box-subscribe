@@ -22,7 +22,7 @@
     ],
     "rules": [
       {
-        "rule_set": ["geosite-category-ads-all","geosite-googleads","ad"]
+        "rule_set": ["geosite-category-ads-all","geosite-googleads"]
         "server": "block"
       },
       {
