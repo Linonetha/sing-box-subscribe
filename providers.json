@@ -7,7 +7,7 @@
             "emoji": 1,
             "subgroup": "",
             "prefix": "",
-            "User-Agent":"v2rayng"
+            "User-Agent":"clashmeta"
         },
         {
             "url": "URL",
@@ -25,7 +25,7 @@
     },
     "save_config_path": "./config.json",
     "auto_backup": false,
-    "exclude_protocol":"ssr",
+    "exclude_protocol":"vmess",
     "config_template": "",
     "Only-nodes": false
 }
